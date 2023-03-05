@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+/Users/hyou/Desktop/GitRepo/JAVABasic/JAVA_LAB/DataType/.metadata/.plugins/org.eclipse.jdt.core
-700045460.index
-1865797976.index
-35579067.index
