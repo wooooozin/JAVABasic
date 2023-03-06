@@ -17,10 +17,11 @@ public class ShortCircuitEvaluation {
 		
 		value = ((num1 = num1 + 10) < 10) || ((i = i + 2) < 10);
 		
-		System.out.println(value); // false
-		System.out.println(num1); // 20
-		System.out.println(i); // 2 
-		
+		System.out.println(value); // true
+		System.out.println(num1); // 30
+		System.out.println(i); // 4 
+		// false || true -> true
+		// 논리합 연산자는 둘다 false일 때 false
 		
 	}
 
