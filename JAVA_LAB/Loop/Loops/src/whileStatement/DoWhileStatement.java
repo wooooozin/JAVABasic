@@ -11,6 +11,7 @@ public class DoWhileStatement {
 		int sum = 0;
 		
 		do {
+			System.out.print("num: ");
 			input = scanner.nextInt();
 			sum += input;
 		} while (input != 0);
