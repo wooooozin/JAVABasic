@@ -6,8 +6,21 @@ public class Student {
 	String studentName;
 	String studentAddress;
 	
+	public Student() { }
+	
+	public Student(int studentId, String studentName) {
+		this.studentId = studentId;
+		this.studentName = studentName;
+	}
+	
+	public Student(int studentId, String studentName, String studentAddress) {
+		this.studentId = studentId;
+		this.studentName = studentName;
+		this.studentAddress = studentAddress;
+	}
+	
 	public void showStudentInfo() {
-		System.out.println(studentName + "," + studentAddress);
+		System.out.println(studentId + "," + studentName + "," + studentAddress);
 	}
 	
 	public String getStudentName() {
