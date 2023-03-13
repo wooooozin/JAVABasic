@@ -1,0 +1,15 @@
+package accesssModifier;
+
+public class BirthdayTest {
+
+	public static void main(String[] args) {
+		
+		Birthday day = new Birthday();
+		day.setDay(2023);
+		day.setMonth(15);
+		day.setDay(30);
+
+		System.out.println(day.isValid());
+	}
+
+}

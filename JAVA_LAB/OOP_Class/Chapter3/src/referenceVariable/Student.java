@@ -3,9 +3,9 @@ package referenceVariable;
 public class Student {
 	
 	// 멤버 변수
-	int studentId;
-	String studentName;
-	
+	private int studentId;
+	private String studentName;
+
 	Subject korean;
 	Subject math;
 	
@@ -33,5 +33,22 @@ public class Student {
 		int total = korean.score + math.score;
 		System.out.println(studentName + "학생의 총점; " + total + "점 입니다.");
 	}
+	
+	// getter setter
 
+	public int getStudentId() {
+		return studentId;
+	}
+	
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
 }

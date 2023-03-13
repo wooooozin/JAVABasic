@@ -16,6 +16,8 @@ public class StudentTest {
 		studentLoopy.showStudentScore();
 		studentZanmang.showStudentScore();
 		
+//		System.out.println(studentLoopy.getStudentId());
+		
 	}
 
 }
