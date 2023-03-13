@@ -14,7 +14,7 @@ public class StudentTest {
 		
 		student1.showStudentInfo(); // Loopy,Seoul
 		student2.showStudentInfo(); // Zanmang,Busan
-		student3.showStudentInfo();
+		student3.showStudentInfo(); // 102,Hoyki,Seoul
 		
 		System.out.println(student1); // memberVariable.Student@주
 		System.out.println(student2); // memberVariable.Student@251a69d7
