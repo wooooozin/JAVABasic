@@ -6,10 +6,13 @@ public class BirthdayTest {
 		
 		Birthday day = new Birthday();
 		day.setDay(2023);
-		day.setMonth(15);
+		day.setMonth(3);
 		day.setDay(30);
 
-		System.out.println(day.isValid());
+		System.out.println(day.isValid()); // true
+		
+		System.out.print(day);
+		day.printThis();
 	}
 
 }

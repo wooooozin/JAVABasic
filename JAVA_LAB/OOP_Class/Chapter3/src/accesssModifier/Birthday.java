@@ -47,6 +47,8 @@ public class Birthday {
 		return isValid;
 	}
 	
-	
+	public void printThis() {
+		System.out.println(this);
+	}
 
 }
