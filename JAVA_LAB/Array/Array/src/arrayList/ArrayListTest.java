@@ -17,8 +17,8 @@ public class ArrayListTest {
 		list.add(new Book("잔망루피5", "루피5"));
 		
 		list.remove(3);
-		System.out.println(list.isEmpty());
-		System.out.println(list.size());
+		System.out.println(list.isEmpty()); // false
+		System.out.println(list.size()); // 3
 		
 		for (int i = 0; i < list.size(); i++) {
 			list.get(i).showBookInfo();
